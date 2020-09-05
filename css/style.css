@@ -1,0 +1,40 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  background: #6b40f8;
+  background: linear-gradient(0deg, #6b40f8 0%, #ff63b9 100%);
+}
+
+.header {
+  min-height: 4rem;
+  background-color: #301e4e;
+  margin-bottom: 3rem;
+}
+
+.header-date {
+  text-align: center;
+  padding-top: 0.8rem;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.header-date span {
+  font-weight: 700;
+}
+
+.main {
+  background-color: #fff;
+  width: 70%;
+  margin: auto;
+}
+
+.main-now {
+  background-color: black;
+  height: 15rem;
+}
+
+.main-subblock {
+  background-color: #ffffff;
+  height: 15rem;
+}
+/*# sourceMappingURL=style.css.map */
