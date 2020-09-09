@@ -20,3 +20,46 @@ body {
 .header-date span {
   font-weight: 700;
 }
+
+.now {
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  padding-top: 5rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.now-icon {
+  padding-left: 7rem;
+}
+
+.now-temperature {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-style: bold;
+}
+
+.second {
+  background-color: #ffffff;
+  min-height: 50px;
+}
+
+.second-news {
+  background-color: black;
+}
+
+.second-week {
+  background-color: red;
+  max-height: 5rem;
+}
+
+.second-week_items {
+  background-color: #fff;
+  display: inline-block;
+}
+
+.second-week_items img {
+  max-width: 3rem;
+}
+/*# sourceMappingURL=style.css.map */
