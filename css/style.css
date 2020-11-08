@@ -24,7 +24,7 @@ body {
 .main {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  background-color: #b3a7aa;
+  background-color: #e8e1e8;
 }
 
 .now {
@@ -72,3 +72,4 @@ body {
 .second-week_items img {
   max-width: 5rem;
 }
+/*# sourceMappingURL=style.css.map */
