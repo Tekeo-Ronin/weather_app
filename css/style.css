@@ -32,6 +32,10 @@ body {
   padding-top: 5rem;
 }
 
+.now-timezone {
+  font-size: 2rem;
+}
+
 .now-icon {
   padding-left: 7rem;
 }
@@ -44,7 +48,7 @@ body {
 }
 
 .now-temperature_description {
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
 }
 
 .horizontal-line {
@@ -71,5 +75,11 @@ body {
 
 .second-week_items img {
   max-width: 5rem;
+}
+
+@media (max-width: 991px) {
+  .body{
+
+  }
 }
 /*# sourceMappingURL=style.css.map */

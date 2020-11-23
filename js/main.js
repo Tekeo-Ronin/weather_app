@@ -6,6 +6,9 @@ window.addEventListener("load", () => {
   );
   let locationTimezone = document.querySelector(".now-timezone");
   let temperatureDegree = document.querySelector(".now-temperature");
+  let currentDate = document.querySelector(".header-date");
+
+  currentDate.textContent = moment().format('MMMM Do YYYY');
 
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition((position) => {
